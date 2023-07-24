@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+  <meta charset="UTF-8">
+  <title>URL Shortener</title>
+</head>
+
+<body>
+  <h1>URL SHORTENER</h1>
+  <div class="form_div">
+    <p class="card_header">Paste the URL to be shortened</p>
+    <form class="shortener_form" method="POST" action="{{url_for('index')}}">
+      <input class="url_input" type="url" name="long_url" placeholder="Enter the long url" value=>
+      <button class="generate_btn" type="submit">Generate URL</button>
+      <p class="description">ShortURL is a free tool to shorten URLs and generate short links
+      <br><br>URL shortener allows to create a shortened link making it easy to share</p>
+    </form>
+  </div>
+</body>
+
+</html>

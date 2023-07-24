@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    color: rgb(12, 12, 181);
+    text-align: center;
+    font-size: 250%;
+    font-family: "Lilita One";
+    height: 50%;
+}
+
+html {
+    height: 100%;
+}
+
+.form_div {
+    height: auto;
+    width: 50%;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 25%;
+}
+
+.description {
+    font-size: 18px;
+    color: black;
+    padding: 1% 10% 3% 10%;
+    font-family: "PTSerif";
+}
+
+.shortener_form {
+    width: 100%;
+    display: inline-table;
+}
+
+.url_input {
+    font-family: "Lilita One";
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.generate_btn {
+    width: fit-content;
+    background-color: #2c87c5;
+    font-size: 42px;
+    border-radius: 0%;
+    border-style: none;
+    color: white;
+    display: inline-block;
+    font-family: "Lilita One";
+}
+
+.card_header {
+    font-family: serif;
+    color: rgb(71, 71, 71);
+    padding: 2% 0% 0% 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.result_p {
+    padding-bottom: 2%;
+    margin: 0%;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: "Lilita One";
+    src: url("../fonts/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PTSerif";
+    src: url("../fonts/PTSerif.ttf");
+}
